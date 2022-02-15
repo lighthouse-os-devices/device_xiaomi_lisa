@@ -12,15 +12,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/lisa/device.mk)
 
 # Inherit some common Evolution stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/lighthouse/config/common.mk)
 
+WITH_GAPPS := true
+LIGHTHOUSE_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
-
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lisa
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 11 Lite 5G NE
-PRODUCT_NAME := evolution_lisa
+PRODUCT_NAME := lighthouse_lisa
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_lisa.mk
+    $(LOCAL_DIR)/lighthouse_lisa.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_lisa-user \
-    evolution_lisa-userdebug \
-    evolution_lisa-eng
+    lighthouse_lisa-user \
+    lighthouse_lisa-userdebug \
+    lighthouse_lisa-eng
